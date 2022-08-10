@@ -5,12 +5,14 @@ body{
     margin:0;
     height:100vh;
     font-family: 'Taviraj', serif;
+    background-image: url(/Images/pexels-lucas-ianiak-4310574\ \(1\).jpg);
+    background-size: cover;
 
 }
 
 .navigation{
 
-    background-color:rgb(245, 62, 62);
+    background-color:rgb(255, 73, 73);
     color: black;
     padding:0.5rem;
     text-align: center;
@@ -27,13 +29,14 @@ body{
     height: 30%;
     margin: 2rem auto;
     border-radius: 1rem;
-    background-color: rgb(24, 11, 11);
+    background-color: rgba(24, 11, 11, 0.89);
     color: red;
     resize: none;
     padding: 1rem;
     font-size: 20px;
     opacity: .8;
     font-family: 'Taviraj', serif;
+    font-weight: bolder;
 
     
     
@@ -91,9 +94,9 @@ body{
 
 }
 .footer{
-    background-color:rgb(245, 62, 62);
+    background-color:rgb(255, 73, 73);
     color: black;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     font-weight: bolder;
     align-content: center;
