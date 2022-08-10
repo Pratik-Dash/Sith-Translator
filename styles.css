@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    margin:0
+}
+
+.navigation{
+
+    background-color: red;
+    color: black;
+    padding:0.5rem;
+    text-align: center;
+    font-size: 20px;
+    border-bottom-left-radius: 2rem;
+
+}
+
+.views{
+
+    width: 90%;
+    height: 50%;
+}
