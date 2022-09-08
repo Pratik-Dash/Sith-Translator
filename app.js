@@ -3,9 +3,14 @@ const input = document.querySelector("#input-area")
 const output = document.querySelector("#output-area")
 const translate_btn = document.querySelector("#translate-btn")
 translate_btn.addEventListener("click", function constructURL(){
+    var userText = input.value;
+    if(userText === ""){
+        output.innerText = "Please enter some English text to translate."
+    }else{
 
-    var finalUrl = url+"?text="+input.value
+    var finalUrl = url+"?text="+userText
     makeRequest(finalUrl)
+    }
 })
 function handleError(error)
 {
